@@ -1,4 +1,4 @@
-# Search Github
+# Planets Infos
 
 Uma pagina com informações dos planetas do sistema solar! 
 
