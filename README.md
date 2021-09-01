@@ -24,5 +24,5 @@ npm run start
 ```
 
 
-#### Confira o processo em https://planets-infos.netlify.app/](https://planets-infos.netlify.app/)
+#### Confira o processo em [https://planets-infos.netlify.app/](https://planets-infos.netlify.app/)
 
