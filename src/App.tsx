@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
   return (
-    <h1>Bonacera</h1>
+    <>
+      <GlobalStyles />
+      <h1>Bonacera</h1>
+    </>
   );
 }
 
