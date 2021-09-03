@@ -11,7 +11,6 @@ export default createGlobalStyle`
   html, body, #root {
     height: 100%;
     background: url(${background}) #070625 ; 
-
   }
 
   *, button, input {
