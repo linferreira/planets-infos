@@ -23,7 +23,7 @@ export const Group = styled.div`
   }
 
   & label {
-    border: 1px solid #cccccc;
+    border: 1px solid rgba(204, 204, 204, 0.3);
     border-radius: 2px;
     color: #ffffff;
     font-weight: 600;
