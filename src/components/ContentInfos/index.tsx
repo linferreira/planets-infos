@@ -4,7 +4,7 @@ import { RadioGroup } from "../RadioGroup";
 import { Title } from "../Title";
 import { Container } from "./styles";
 
-export const Content: React.FC = () => (
+export const ContentInfos: React.FC = () => (
   <Container>
     <Title text="Loren" />
     <Description
