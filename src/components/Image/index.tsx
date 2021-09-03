@@ -4,6 +4,6 @@ import { ImageContainer } from "./styles";
 
 export const Image = () => (
     <ImageContainer>
-        <img src={earth} />
+        <img src={earth} alt='Planet Figure' />
     </ImageContainer>
 )
