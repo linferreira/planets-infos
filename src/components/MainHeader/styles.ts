@@ -6,7 +6,7 @@ export const Header = styled.header`
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.3);
 
   & > h1 {
     font-size: 1.4em;
