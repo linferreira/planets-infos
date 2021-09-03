@@ -6,7 +6,6 @@ export const Header = styled.header`
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  background-color: #38384f;
   border-bottom: 1px solid #cccccc;
 
   & > h1 {
@@ -17,6 +16,7 @@ export const Header = styled.header`
 
   & > nav ul {
     display: flex;
+    flex-wrap: wrap;
   }
   
   & > nav li{
@@ -27,5 +27,25 @@ export const Header = styled.header`
 
   & li + li {
     margin-left: 30px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    height: 20vh;
+    grid-template-columns: auto;
+    justify-content: center;
+
+    & > h1 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    & > nav li{
+      font-size: 0.65em;
+    }
+
+
+    & li + li {
+      margin-left: 50px;
+    }
   }
 `

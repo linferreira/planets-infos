@@ -7,7 +7,6 @@ function App() {
     <>
       <GlobalStyles />
       <Routes />
-      <h1>Bonacera</h1>
     </>
   );
 }
