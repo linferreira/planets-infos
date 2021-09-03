@@ -12,7 +12,7 @@ export const Description: React.FC<IProps> = ({text}) => (
             {text}
         </Paragraph>
         <Source>
-            Fonte: <a href="#">Site <img src={Icon} alt='Source Figure'/> </a>
+            Fonte: <a href="https://www.google.com/">Site <img src={Icon} alt='Source Figure'/> </a>
         </Source>
     </Wrapper>
 )
