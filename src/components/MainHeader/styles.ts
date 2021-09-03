@@ -9,6 +9,7 @@ export const Header = styled.header`
   border-bottom: 1px solid #cccccc;
 
   & > h1 {
+    font-size: 1.4em;
     color: #fff;
     font-family: "Antonio", sans-serif;
     font-weight: 400;

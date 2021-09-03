@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import background from '../assets/background-stars.svg';
+import Background from '../assets/background-stars.svg';
 
 export default createGlobalStyle`
   * {
@@ -10,7 +10,7 @@ export default createGlobalStyle`
 
   html, body, #root {
     height: 100%;
-    background: url(${background}) #070625 ; 
+    background: url(${Background}) #070625 ; 
   }
 
   *, button, input {
