@@ -5,4 +5,5 @@ export const Text = styled.h2`
     font-family: "Antonio", sans-serif;
     font-weight: 400;
     font-size: 3em;
+    text-transform: uppercase;
 `
